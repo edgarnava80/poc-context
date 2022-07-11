@@ -12,10 +12,14 @@
   align-items: center;
 }
 
+.foot {
+  margin-top: 2rem;
+  padding: 1rem;
+}
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -113,4 +117,35 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.form {
+  margin: .5rem;
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.label {
+  margin-right: .5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.input {
+  margin: .5rem;
+  padding: .5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.button {
+  margin: .5rem;
+  padding: .5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 100%;
 }
